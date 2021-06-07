@@ -24,8 +24,11 @@ function divisao(x, y) {
 }
 
 function calculadora(x, y, callback) {
-    console.log(callback(x, y));
+	console.log(callback(x, y));
 }
+
+calculadora(2, 4, soma); 
+calculadora(1, 3, divisao);
 
 
 //3- o Enunciado eu não sei. 
